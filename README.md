@@ -1,1 +1,1 @@
-# AWS VPN SErver
+# AWS VPN Server
