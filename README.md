@@ -16,11 +16,11 @@ How To Create and Connect to a VPN server on AWS
 ```bash
 ssh -i "keypair.pem" root@PublicIPv4DNS 
 ```
-4. SSH'd into my server as openvpnas 
+4. SSH'd into my server as openvpn 
 ```bash
 ssh -i "keypair.pem" openvpnas@PublicIPv4DNS
 ```
-5. Changed the password  
+5. Changed the openvpn password 
 ```bash
 sudo passwd openvpn 
 ```
