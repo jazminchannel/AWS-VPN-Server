@@ -1,5 +1,4 @@
 # AWS VPN Server
-======
 
 Competencies
 -------
@@ -11,8 +10,26 @@ Competencies
 How To Create and Connect to a VPN server on AWS
 -----------
 
-1. 
-Modify the startup script to adapt to the AMI ID available in your region
+1. Launched an OpenVPN Access server . I found this AMI with OpenVPN already installed in AWS Marketplace 
+2. Used an existing key pair I already created  
+3. SSH'd into my server as root 
+```bash
+[default]
+ssh -i "keypair.pem" root@PublicIPv4DNS 
+```
+SSH'd into my server as openvpnas 
+
+ssh -i "keypair.pem" openvpnas@PublicIPv4DNS 
+
+Changed the password  
+
+sudo passwd openvpn 
+
+Accessed admin page in browser 
+
+Go to http://IPv4PublicIP:943/admin 
+
+Logged in with openvpn username and password 
 
 How To ?
 --------
