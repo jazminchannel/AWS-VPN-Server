@@ -10,7 +10,7 @@ Competencies
 How To Create and Connect to a VPN server on AWS
 -----------
 
-1. Launched an OpenVPN Access server . I found this AMI with OpenVPN already installed in AWS Marketplace 
+1. Launched an OpenVPN Access server . I found this AMI with OpenVPN already installed in AWS Marketplace ![](https://openvpn.net/wp-content/uploads/vpn_server_resources/byol-ami.png)
 2. Used an existing key pair I already created  
 3. SSH'd into my server as root 
 ```bash
