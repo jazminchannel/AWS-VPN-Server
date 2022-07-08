@@ -1,1 +1,1 @@
-# Setting-up-a-VPN-server-on-AWS
+# AWS VPN SErver
