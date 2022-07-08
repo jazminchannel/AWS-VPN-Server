@@ -26,6 +26,13 @@ sudo passwd openvpn
 ```
 6. Accessed admin page in browser 
   - Go to http://IPv4PublicIP:943/admin 
-
 7. Logged in with openvpn username and password 
+8. Went to Configuration > VPN settings. Scrolled down to routing and allowed clients to access network services on the VPN gateway IP address. 
+9. Clicked save settings and update running server 
+10. Went to user portal  
 
+  -http://IPv4PublicIP:943/ 
+
+  -Signed in using openvpn username and password 
+
+  -Downloaded the client for my desktop 
