@@ -25,7 +25,7 @@ ssh -i "keypair.pem" openvpnas@PublicIPv4DNS
 sudo passwd openvpn 
 ```
 6. Accessed admin page in browser 
-- Go to http://IPv4PublicIP:943/admin 
+  - Go to http://IPv4PublicIP:943/admin 
 
 Logged in with openvpn username and password 
 
