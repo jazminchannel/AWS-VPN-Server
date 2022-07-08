@@ -31,8 +31,12 @@ sudo passwd openvpn
 9. Clicked save settings and update running server 
 10. Went to user portal  
 
-  -http://IPv4PublicIP:943/ 
+  - http://IPv4PublicIP:943/ 
 
-  -Signed in using openvpn username and password 
+  - Signed in using openvpn username and password 
 
-  -Downloaded the client for my desktop 
+  - Downloaded the client for my desktop 
+11. Opened OpenVPN on my desktop  
+12. Entered my IPv4PublicIP and connected using my openvpn credentials 
+13. Connected! (Googled " What is my IP " to confirm )
+
